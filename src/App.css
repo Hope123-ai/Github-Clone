@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
 }
 
 .App-logo {
@@ -13,6 +13,167 @@
   }
 }
 
+.container{
+  background-color: black;
+  color: white;
+}
+
+.desc{
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  font-size: 12px;
+  color: grey;
+  padding:3px;
+}
+
+.profile-container{
+  display: flex;
+  flex-direction: row;
+}
+
+.input{
+  padding: 0.5rem;
+  margin-left: 1rem;
+  border-radius: 5px;
+  outline: none;
+  border:2px solid #808080;
+  background-color: #FFFFFF;
+}
+
+.language{
+  color: #808080;
+  font-size: 16px;
+  margin-left: 1rem;
+}
+
+.profile_pic{
+  border-radius: 80%;
+  display: flex;
+  margin: 1rem;
+  justify-self: left;
+  height: 15rem;
+  width: 15rem;
+}
+
+.name{
+  font-weight: bolder;
+  font-size: 24px;
+  text-align: left;
+  margin: 1rem;
+}
+
+.username{
+  font-size: 19px;
+  text-align: left;
+  margin: 1rem;
+  color: #808080;
+  font-weight: lighter;
+}
+.location{
+  text-align: left;
+  font-size: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+.email{
+  text-align: left;
+  font-size: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.location-img,.mail-img{
+  height: 15px;
+  width: 15px;
+  margin-left: 1rem;
+}
+
+.location-txt,.mail-txt{
+  margin-left: 1rem;
+  padding: 0.5rem;
+  
+}
+
+.right-info{
+  width: 100%;
+  margin-left: 4rem;
+}
+
+.left-info{
+  margin-left: 2rem;
+}
+
+h3{
+  text-align: left;
+margin-left: 1rem;
+}
+
+.display{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.bookmark{
+  height: 15px;
+  width: 15px;
+  margin: 1rem 0 1rem 1rem;
+  /* padding-bottom: 2rem; */
+}
+
+.repos{
+  display: flex;
+  flex-direction: column;
+  border: 0.5px solid #dadada;
+  border-radius: 10px;
+  margin: 0.5rem;
+  width: 410px;
+  padding: 16px;
+
+}
+
+.repo-names{
+  /* padding-bottom: 2rem; */
+  display: flex;
+  margin: 0.5rem;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.name-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.repo-names:hover{
+  text-decoration: underline;
+  cursor: pointer;
+  color: blue;
+}
+
+a{
+  color: #0366d6;
+  text-decoration: none;
+}
+
+.btn_click{
+  padding: 1rem;
+  margin: 1rem;
+  background-color: black;
+  font-weight: bold;
+  color: grey;
+  outline: none;
+  border: none;
+}
+.bio{
+  text-align: left;
+  margin-left: 1rem;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;

@@ -12,7 +12,7 @@ function App() {
   const [repo, setRepo] = useState([]);
   const [error, setError] = useState(false);
   const [show, setShow] = useState(false);
-
+ 
   function changeText(e) {
     setText(e.target.value);
   }
@@ -65,6 +65,8 @@ function App() {
               <img src={mail} className="mail-img" />
               <div className="mail-txt">{profile.email}</div>
             </div>
+            <div className="follower">Followers {profile.followers}</div>
+                  <div className="following">Following {profile.following}</div>
           </div>
           <div className="right-info">
             <div>
@@ -83,6 +85,7 @@ function App() {
                       </div>
                       <div className="desc">{item.description}</div>
                       <div className="language">{item.language}</div>
+                  
                     </div>
                   );
                 })

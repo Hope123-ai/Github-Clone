@@ -92,6 +92,16 @@
   margin-left: 1rem;
 }
 
+.follower{
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+}
+
+.following{
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+}
+
 .location-txt,.mail-txt{
   margin-left: 1rem;
   padding: 0.5rem;
